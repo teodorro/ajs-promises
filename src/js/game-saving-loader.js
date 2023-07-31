@@ -17,9 +17,6 @@ export default class GameSavingLoader {
           gsJson.userInfo.points,
         );
         resolve(gameSaving);
-      }))
-      .catch((error) => {
-        console.log(error);
-      });
+      }));
   }
 }
